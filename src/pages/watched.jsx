@@ -105,7 +105,7 @@ export default function Watched({watchedMovies = [], onRemoveWatched}){
                 <h2 className="text-center banner py-2">WATCHED</h2>
                 <LocalSearchBar filterText={filterText} onFilterTextChange={setFilterText}  />
                 <h5 className=" fw-bold p-3">{filteredMovies.length} item(s) here</h5>
-                <p className="text-center dang p-5 fw-bold">Sorry, what you are searching for does not exist here</p>
+                <p className="text-center p-5 fw-bold">Seems like you have not added a movie here. (if you searched for something then it doesn't exist here)</p>
             </div>
         );
     }
