@@ -1,5 +1,5 @@
 import React from "react";
-import '../app.css';
+import '../App.css';
 import { Link, useSearchParams } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ApiSearchBar from '../components/apiSearchBar.jsx';
