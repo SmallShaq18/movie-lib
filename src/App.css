@@ -1,0 +1,85 @@
+.app{
+    overflow-x: hidden;
+}
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+}
+
+.movielist{
+    width: 99vw;
+}
+.dang{
+    color: red;
+}
+.banner{
+    background-color: #ffffff; color: black; width: 100%;
+}
+.inputt{
+    width: 50%;
+}
+button{
+    border: 1px solid black; font-size: 12px !important; padding: 2%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 991.98px) {/*720px*/
+    .inputt{
+        width: 90%;
+    }
+    .navbar-toggler {
+  border: none;
+}
+
+.toggler-icon {
+  width: 25px !important;
+  height: 3px !important;
+  background-color: white !important;
+  margin: 5px 0;
+  transition: 0.4s;
+  display: block;
+}
+
+.navbar-toggler.open .toggler-icon:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.navbar-toggler.open .toggler-icon:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler.open .toggler-icon:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+.navv{
+    align-items: center;
+}
+.navbar-custom {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030; /* Bootstrap's default navbar z-index */
+  }
+
+  body {
+    padding-top: 56px; /* Offset for fixed navbar height */
+  }
+
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 2rem;
+  height: 2rem;
+  background-size: 100% 100%;
+  margin: 0 25% !important;
+  color: red !important;
+  background-color: grey !important;
+}
+
+}
+  
+  
